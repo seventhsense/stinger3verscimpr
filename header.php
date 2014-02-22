@@ -78,27 +78,6 @@ endif;
 }
 ?>
 <div id="container">
-<div id="header">
-  <div id="header-in">
-    <div id="h-l">
-      <p class="sitename"><a href="<?php echo home_url(); ?>/">
-        <?php bloginfo('name'); ?>
-        </a></p>
-      <?php if (is_home()) { ?>
-      <h1 class="descr">
-        <?php bloginfo('description'); ?>
-      </h1>
-      <?php } else { ?>
-      <p class="descr">
-        <?php bloginfo('description'); ?>
-      </p>
-      <?php } ?>
-    </div>
-    <!-- /#h-l --> 
-  </div>
-  <!-- /#header-in --> 
-</div>
-<!-- /#header -->
 <div id="gazou">
   <div id="gazou-in">
     <?php if (is_home()) { ?>

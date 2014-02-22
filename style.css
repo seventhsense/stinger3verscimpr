@@ -7,3 +7,35 @@ Template: stinger3ver20140124
  
  */
 @import url('../stinger3ver20140124/style.css');
+
+.post .entry .entry-content { /*　本文を狭く　*/
+    width:330px;
+}
+ 
+.post .entry { /*　枠線を付加　*/
+    border:solid 2px silver;
+    padding:20px 20px 0px 20px;
+}
+ 
+.kizi .entry .entry-content .entry-title-ac { /*　タイトル位置を微調整　*/
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+  }
+#snsbox 
+{
+	position: fixed;
+	bottom: 200px;
+	right: 420px;
+	font-size: 10px;
+}
+
+span.h2-number
+{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: black;
+  padding: 5px 8px;
+  margin-right: 10px;
+}
