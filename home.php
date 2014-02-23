@@ -31,7 +31,6 @@ array( 'alt' =>$title, 'title' => $title)); ?>
           <?php the_tags('', ', '); ?>
         </p>
       </div>
-      <p class="motto"><a class="more-link" href="<?php the_permalink() ?>">続きを見る</a></p>
     </div>
     <!-- .entry-content -->
     

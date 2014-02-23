@@ -39,3 +39,26 @@ span.h2-number
   padding: 5px 8px;
   margin-right: 10px;
 }
+
+.entry:hover
+{
+  border-color: #aaf;
+  cursor: pointer;
+  background-color: #cdF;
+}
+.entry:hover a:link
+{
+  color: #CC3333;
+  background-color: #cdF;
+}
+
+.entry:hover a:visited
+{
+  color: #CC3333;
+  background-color: #cdF;
+}
+
+.entry:hover .entry-title-ac
+{
+  background-color: #cdF;
+}

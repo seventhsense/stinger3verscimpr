@@ -269,3 +269,13 @@ jQuery(document).ready(function(){
     jQuery(this).html('<span class="h2-number">' + (i+1) + '</span> ' +jQuery(this).text());
   });
 });
+
+/*---------------------------
+  div全体をクリッカブルに
+------------------------------*/
+jQuery(function(){
+  jQuery(".entry").click(function(){
+    window.location=jQuery(this).find("a").attr("href");
+    return false;
+  })
+});
