@@ -8,6 +8,7 @@
 <meta name="robots" content="noindex">
 <?php elseif(is_tag()): ?>
 <meta name="robots" content="noindex">
+<meta name="twitter:widgets:csp" content="on">
 <?php endif; ?>
 <title>
 <?php
