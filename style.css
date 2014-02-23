@@ -8,6 +8,23 @@ Template: stinger3ver20140124
  */
 @import url('../stinger3ver20140124/style.css');
 
+/* 本文  */
+#main .kizi p
+{
+font-size:17px;
+line-height: 30px;
+}
+#main .kizi .blogbox p
+{
+font-size:12px;
+line-height: 27px;
+}
+#main .kizi li
+{
+font-size:17px;
+}
+
+/* 記事一覧の修正 */
 .post .entry .entry-content { /*　本文を狭く　*/
     width:330px;
 }
