@@ -96,6 +96,14 @@ span.h2-number
   background-color: #cdF;
 }
 
+/* page-top */
+#page-top
+{
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
 /* toc */
 #toc
 {
@@ -115,6 +123,11 @@ span.h2-number
   white-space: -o-pre-wrap;
   white-space: -moz-pre-wrap;
   border-radius: 5px;
+  z-index: 10000;
+}
+#toc h4
+{
+  text-align:center;
 }
 #toc ol
 {
