@@ -200,3 +200,61 @@ h2#headding09 {
 	text-shadow:1px 1px 2px #333;
 	box-shadow:inset -1px -1px 2px rgba(0,0,0, 0.6),inset 1px 1px 2px rgba(255,255,255,0.8);
 }
+
+/* sns button */
+@font-face {
+    font-family:'LigatureSymbols';
+    src: url('fonts/LigatureSymbols-2.11.eot');
+    src: url('fonts/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LigatureSymbols-2.11.woff') format('woff'),
+         url('fonts/LigatureSymbols-2.11.ttf') format('truetype'),
+         url('fonts/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('fonts/LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*SNSボタン共通設定*/
+.sns-button{
+    display:block;
+    float:left;
+    width:85px;
+    height:60px;/*白銀比*/
+    color:#fff;
+    text-decoration:none;
+    font-weight:900;
+    font-size:12px;/*これが.sns-buttonのレイアウト原点*/
+}
+.kurage-icon:before{
+    font-family:'LigatureSymbols';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    content:attr(title);
+    margin-right:3px;
+    font-size:300%;
+    font-weight:100;
+    vertical-align:top;
+}
+.share-num{
+    padding-top:6px;
+    font-size:200%;
+    line-height:100%;
+    text-align:center;
+}
+/*SNS色分け*/
+.twitter{
+    background-color:#00c6f2;
+}
+.facebook{
+    background-color:#3B5998;
+}
+.hatebu{
+    background-color:rgb(44, 110, 189);
+}
