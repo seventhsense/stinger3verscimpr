@@ -54,7 +54,10 @@ font-size:17px;
 .post .kizi h2
 {
   text-indent: -2em;
-  padding-left: 3.5em
+  padding-left: 2em;
+  border: none;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 span.h2-number
@@ -66,6 +69,7 @@ span.h2-number
   background-color: black;
   padding: 5px 8px;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 /* divをクリッカブルに */
