@@ -58,7 +58,7 @@ endif;
     <section class="list6">
       <dl class="acordion">
         <dt class="trigger">
-          <p><span class="op">About</span></p>
+          <p><span class="op">メニュー</span></p>
         </dt>
         <dd class="acordion_tree">
           <ul>
