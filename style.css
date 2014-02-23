@@ -14,7 +14,7 @@ Template: stinger3ver20140124
  
 .post .entry { /*　枠線を付加　*/
     border:solid 2px silver;
-    padding:20px 20px 0px 20px;
+    padding:20px;
 }
 
 #topnews dl{ /*　枠線を付加　*/
