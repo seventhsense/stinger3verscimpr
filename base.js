@@ -223,6 +223,26 @@ jQuery(function() {
         });
   });
 
+jQuery(function() {
+    var tocBox = jQuery('#toc');
+    tocBox.hide();
+    var isH2 = jQuery('.kizi h2').html()
+    //スクロールが400に達したら表示
+    jQuery(window).scroll(function () {
+        if(jQuery(this).scrollTop() > 400 && isH2 != null) {
+            tocBox.fadeIn();
+        } else {
+            tocBox.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+        // pageTop.click(function () {
+        // jQuery('body,html').animate({
+            // scrollTop: 0
+        // }, 800);
+        // return false;
+        // });
+  });
 /*---------------------------
 ｱｺｰﾃﾞｨｵﾝ
 ------------------------------*/
@@ -266,7 +286,9 @@ jQuery(document).ready(function(){
 ------------------------------*/
 jQuery(document).ready(function(){
   jQuery('.kizi h2').each(function(i){
-    jQuery(this).html('<span class="h2-number">' + (i+1) + '</span> ' +jQuery(this).text());
+    jQuery(this).after('<div id="jumpto_' +(i+1)+'" class="anchor-p"></div>');
+    jQuery('#toc-list').append('<li><a href="#jumpto_'+(i+1)+'" >'+jQuery(this).html()+'</a></li>');
+  jQuery(this).html('<span class="h2-number">' + (i+1) + '</span> ' +jQuery(this).text());
   });
 });
 

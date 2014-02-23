@@ -48,6 +48,7 @@
 <!-- ここにsns02 -->
 <?php if ( function_exists('wp_is_mobile') && wp_is_mobile() ) :?>
 <?php else: ?>
+<?php get_template_part('toc');?>
 <?php get_template_part('sns02');?>
 <?php endif; ?>
 <!-- ここまでsns02 -->

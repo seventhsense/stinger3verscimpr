@@ -95,3 +95,38 @@ span.h2-number
 {
   background-color: #cdF;
 }
+
+/* toc */
+#toc
+{
+  position: fixed;
+  bottom: 110px;
+  right: 20px;
+  background-color: #665e53;
+  color: white;
+  padding:20px;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  white-space: pre;          
+  white-space: pre-wrap;  
+  white-space: pre-line;  
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -moz-pre-wrap;
+  border-radius: 5px;
+}
+#toc ol
+{
+  padding: 0 20px;
+}
+#toc a
+{
+  color: white;
+  text-decoration: none;
+}
+.anchor-p
+{
+  padding-top: 100px;
+  margin-top: -100px;
+}
