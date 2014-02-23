@@ -46,6 +46,8 @@ span.h2-number
   margin-right: 10px;
 }
 
+/* divをクリッカブルに */
+
 .entry:hover
 {
   border-color: #aaf;
