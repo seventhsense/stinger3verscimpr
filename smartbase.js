@@ -53,3 +53,11 @@ jQuery(document).ready(function(){
   });
 });
 
+/*---------------------------
+  h2に連番追加
+------------------------------*/
+jQuery(document).ready(function(){
+  jQuery('.kizi h2').each(function(i){
+    jQuery(this).html('<span class="h2-number">' + (i+1) + '</span> ' +jQuery(this).text());
+  });
+});
