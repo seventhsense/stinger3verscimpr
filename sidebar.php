@@ -11,7 +11,7 @@
     </div>
   <!--アドセンス-->
   <div id="ad1">
-    <div style="text-align:center;">
+    <div style="text-align:left;">
       <?php get_template_part('scroll-ad');?>
     </div>
   </div>
