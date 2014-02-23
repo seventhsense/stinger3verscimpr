@@ -9,7 +9,6 @@
       <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
       <?php endif; ?>
     </div>
-  <!--/kizi--> 
   <!--アドセンス-->
   <div id="ad1">
     <div style="text-align:center;">

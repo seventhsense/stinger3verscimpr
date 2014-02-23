@@ -35,7 +35,7 @@ endif;
 </title>
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/rogo.ico" />
+<link rel="shortcut icon" href="<?php echo get_theme_root_uri(); ?>/stinger3verscimpr/images/favicon.ico" />
 
 <!---css切り替え--->
 <?php if(is_mobile()) { ?>
