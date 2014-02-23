@@ -16,6 +16,12 @@ Template: stinger3ver20140124
     border:solid 2px silver;
     padding:20px 20px 0px 20px;
 }
+
+#topnews dl{ /*　枠線を付加　*/
+    border:solid 2px silver;
+    padding:20px 20px 0px 20px;
+    margin-bottom: 10px;
+}
  
 .kizi .entry .entry-content .entry-title-ac { /*　タイトル位置を微調整　*/
     margin: 0px 0px 10px 0px;
@@ -59,6 +65,33 @@ span.h2-number
 }
 
 .entry:hover .entry-title-ac
+{
+  background-color: #cdF;
+}
+
+#topnews dl:hover
+{
+  border-color: #aaf;
+  cursor: pointer;
+  background-color: #cdF;
+}
+#topnews dl:hover a:link
+{
+  color: #CC3333;
+  background-color: #cdF;
+}
+
+#topnews dl:hover a:visited
+{
+  color: #CC3333;
+  background-color: #cdF;
+}
+
+#topnews dl:hover h4.saisin
+{
+  background-color: #cdF;
+}
+#wrap #wrap-in #main .post .sumbox02 #topnews div dl:hover dd .saisin 
 {
   background-color: #cdF;
 }

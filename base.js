@@ -277,5 +277,11 @@ jQuery(function(){
   jQuery(".entry").click(function(){
     window.location=jQuery(this).find("a").attr("href");
     return false;
-  })
+  });
+});
+jQuery(function(){
+  jQuery("#topnews dl").click(function(){
+    window.location=jQuery(this).find("a").attr("href");
+    return false;
+  });
 });
