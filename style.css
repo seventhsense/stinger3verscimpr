@@ -159,3 +159,18 @@ span.h2-number
   font-size: 1.2em;
   margin: 10px 0;
 }
+
+/* archive page h2 */
+
+h2#headding09 {
+	margin:0 0 30px 0;
+	padding:12px 10px;
+	background: #1D8ADE;
+	color:#FFF;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border: solid 1px #1D8ADE;
+	border-radius:4px;
+	text-shadow:1px 1px 2px #333;
+	box-shadow:inset -1px -1px 2px rgba(0,0,0, 0.6),inset 1px 1px 2px rgba(255,255,255,0.8);
+}

@@ -26,7 +26,7 @@ $allcats = array_reverse($allcats);
 <!--/kuzu-->
 <div class="post"> 
   <!--ループ開始-->
-  <h2>「
+  <h2 id="headding09">「
     <?php if( is_category() ) { ?>
     <?php single_cat_title(); ?>
     <?php } elseif( is_tag() ) { ?>

@@ -6,7 +6,7 @@ Template Name: all archives
 <?php get_header(); ?>
 
 <?php the_post() ?>
-<?php the_title(); ?>
+<h2 id="headding09"> <?php the_title(); ?></h2>
 <?php the_content() ?>
 <div id="search-box">
  <input id="search_query" type="text" name="">
