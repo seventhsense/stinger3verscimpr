@@ -150,7 +150,7 @@ span.h2-number
   -moz-opacity: 0.8;
   opacity: 0.8;
   border-radius: 5px;
-  z-index: 10000;
+  z-index: 5000;
 }
 #toc h4
 {
